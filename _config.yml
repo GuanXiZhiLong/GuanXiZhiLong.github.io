@@ -102,8 +102,8 @@ analytics:
 # Site Author
 author:
   name             : "White Wolf"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Sing Jump Rap Code"
+  avatar           : "/assets/images/head.jpeg"
+  bio              : "Sing Jump Rap And Code"
   location         : "HangZhou"
   email            : "18846152183@163.com"
   links:
