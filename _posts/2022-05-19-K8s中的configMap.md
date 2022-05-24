@@ -45,6 +45,7 @@ Pod的使用方式：
 - 编写代码在 Pod 中运行，使用 Kubernetes API 来读取 ConfigMap
 
 
+
     apiVersion: apps/v1    #与k8s集群版本有关，使用 kubectl api-versions 即可查看当前集群支持的版本
     kind: Deployment    #该配置的类型，我们使用的是 Deployment
     metadata:            #译名为元数据，即 Deployment 的一些基本属性和信息
@@ -73,8 +74,7 @@ Pod的使用方式：
           volumes:
           - name: config-volume
             configMap:
-              name: nginx-conf
-    ~                             
+              name: nginx-conf                            
  
  注意：
     
